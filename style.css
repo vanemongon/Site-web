@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+
+header.conteiner{
+
+    background-color: aliceblue;
+    width: 100%;
+    height: 10vh;
+    display : flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3%;
+}
+
+button.conteiner-button {
+  border: 1px solid pink;
+  width: 100px;
+  height: 20%;
+  border-radius: 50px 50px 50px 50px;
+  background-color: white;
+}
+
+section#section-1{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: light aliceblue;
+  text-align: justify;
+  font-family: sans-serif;
+}
+
+section#section-2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: row;
+  background-color: light green;
+  text-align: right;
+  font-family:inherit;
+  font-size: 3rem;
+}
+
+.contenedor{
+    width: 100%;
+    height: 300px;
+    background-color: azure;
+    position: relative;
+    top: 50%;
+    left: 15%;
+    text-align: justify;
+    font-family: fantasy;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: light aqua;
+    position:relative;
+    button:20%;
+    text-align: justify;
+    font-family: fantasy;
+    font-size: 2rem
+
+}
+
+@media only screen and (min-width: 480px) {
+
+    header.conteiner{
+
+        background-color: aliceblue;
+        width: 100%;
+        height: 50vh;
+        display : flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5% 0;
+    }
+    body {
+      background-color: orange;
+}
+footer{
+    width: 50%;
+    height: 300px;
+    background-color: light aqua;
+    position:relative;
+    button:30%;
+    text-align: justify;
+    font-family: fantasy;
+    font-size: 2rem
+}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For mobiles - tablets */
+  header.conteiner{
+
+      background-color: pink;
+      width: 80%;
+      height: 20vh;
+      display : flex;
+      flex-direction:row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 2% 0;
+  }
+  body {
+    background-color: blue;
+  }
+  footer{
+      width: 75%;
+      height: 250px;
+      background-color: light aliceblue;
+      position:relative;
+      button:20%;
+      text-align: justify;
+      font-family: fantasy;
+      font-size: 2rem
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+/* for pc *7
+    header.conteiner{
+
+        background-color: blue;
+        width: 100%;
+        height: 10vh;
+        display : flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 5%;
+    }
+    body {
+      background-color: white;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: dark blue;
+    position:relative;
+    button:10%;
+    text-align: justify;
+    font-family: fantasy;
+    font-size: 2rem
+
+}
+}
